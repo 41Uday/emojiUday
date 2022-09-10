@@ -1,0 +1,22 @@
+/* Write your code here. */
+.emoji-img {
+  width: 100px;
+}
+.emoji-game-img {
+  height: 150px;
+  width: 200px;
+  background-color: #ffffff33;
+  border-radius: 15px;
+  border: 0;
+  margin: 15px;
+}
+
+@media screen and (max-width: 768px) {
+  .emoji-img {
+    width: 50px;
+  }
+  .emoji-game-img {
+    height: 80px;
+    width: 120px;
+  }
+}

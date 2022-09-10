@@ -1,0 +1,72 @@
+/* Write your code here. */
+.result-img {
+  width: 250px;
+}
+
+.win-or-lose-container {
+  height: 500px;
+  width: 600px;
+  padding: 30px;
+  background-color: #ffffff33;
+  border-radius: 25px;
+  display: flex;
+  flex-direction: row;
+  margin-left: 450px;
+  margin-top: 50px;
+}
+.card-1-win-lose {
+  display: flex;
+  flex-direction: column;
+  margin: 40px;
+}
+.wor-l-head-1 {
+  color: white;
+  font-family: 'Roboto';
+  font-size: 40px;
+  font-weight: 600;
+}
+.w-or-l-score-s {
+  color: white;
+  font-family: 'Roboto';
+  font-weight: 600;
+  font-size: 30px;
+}
+.button-w-or-l {
+  height: 40px;
+  width: 120px;
+  background-color: #ffce27;
+  border-radius: 12px;
+  border-width: 0;
+  color: #3d3d3d;
+  font-family: 'Roboto';
+  font-weight: 700;
+  font-size: 16px;
+}
+
+.score-style-w-or-l {
+  color: #6a59ff;
+  font-size: 30px;
+  font-weight: 600;
+  font-family: 'Roboto';
+}
+
+@media screen and (max-width: 768px) {
+  .result-img {
+    width: 150px;
+  }
+  .win-or-lose-container {
+    height: 300px;
+    width: 350px;
+    margin-left: 20px;
+    margin-top: 30px;
+  }
+  .card-1-win-lose {
+    margin: 5px;
+  }
+  .wor-l-head-1 {
+    font-size: 25px;
+  }
+  .score-style-w-or-l {
+    font-size: 20px;
+  }
+}
